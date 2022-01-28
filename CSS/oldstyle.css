@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(92, 91, 91);
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+
+  .topnav li {
+    float: left;
+  }
+
+  .topnav li.right {
+    float: right;
+    background: #ff5733;
+  }
+  
+  .topnav li a , .dropbtn{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .topnav li a:hover,.dropdown:hover .dropbtn{
+    background-color: #ff5733;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #ff5733}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.main{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.footer{
+    left: 10;
+    right: 10;
+    bottom: 0;
+    background-color: #ff5733;
+    overflow: hidden;
+}
+  .columnFooter {
+    float: left;
+    width: 31%;
+    padding: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .rowFooter:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.contactForm input{
+  width: 250px;
+}  
+
+.contactForm textarea{
+  width: 250;
+}
+
+.socialMedia a{
+  font-size: 35;
+  color: black; 
+  text-decoration: none;
+}
+
+.socialMedia img{
+  width:30px;
+  height:30px;
+  background-color: white;
+}
+
+.footerOtherLinks a{
+  font-size: 20;
+  color: black; 
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+
+  .columnFooter {
+    width: 100%;
+  }
+}
