@@ -1,10 +1,26 @@
 body {
-    background-color: rgb(92, 91, 91);
+    background-color: rgb(255, 255, 255);
     font-family: Verdana, sans-serif;
     font-size: 16px;
   
   }
 
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 /* Add a black background color to the top navigation */
 .topnav {
   list-style-type: none;
@@ -75,6 +91,7 @@ body {
 }
 
 .footer{
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
