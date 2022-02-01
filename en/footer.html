@@ -1,4 +1,25 @@
-<div class="footer">
+<script>
+$(document).ready(function() {
+    var x = document.getElementById("fuuter");
+    // Check if body height is higher than window height :)
+    if (document.body.scrollHeight > document.body.clientHeight) {
+        x.style.position = "static";
+        x.style.width = "100%";
+        x.style.bottom = "0";
+        x.style.left = "0";
+        x.style.right = "0";
+    }
+    else{
+        x.style.position = "fixed";
+        x.style.width = "100%";
+        x.style.bottom = "0";
+        x.style.left = "0";
+        x.style.right = "0";
+    }
+});
+</script>
+
+<div class="footer" id = "fu">
     <div class="rowFooter">
         <div class="columnFooter">
             <div class="socialMedia">
