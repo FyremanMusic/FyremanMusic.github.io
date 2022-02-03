@@ -2,7 +2,17 @@
     <head>
         <title> Home </title>
         <link rel="stylesheet" type="text/css" href="CSS/style.css"/>       
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+            var x = document.getElementById("fuuter");
+            x.style.position = "fixed";
+            x.style.width = "100%";
+            x.style.bottom = "0";
+            x.style.left = "0";
+            x.style.right = "0";
+        });
+        </script>
     </head>
 
     <body>
@@ -43,7 +53,7 @@
             digital services (learn more <a href="en/enServices.html">here</a>).
             </p>
 
-        <div class="footer">
+        <div class="footer" id="fuuter">
             <div class="rowFooter">
                 <div class="columnFooter">
                     <div class="socialMedia">
