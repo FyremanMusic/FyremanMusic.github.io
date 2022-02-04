@@ -1,104 +1,109 @@
 <html>
-    <head>
-        <title> Home </title>
-        <link rel="stylesheet" type="text/css" href="../CSS/style.css"/>       
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous">
-            </script>
-            <script> 
-            $(function(){
-                $("#header").load("header.html"); 
-                $("#fuuter").load("footer.html"); 
-            });
-        </script>  
-    </head>
 
-    <body>
-        <div id = "header">       
-        </div>
+<head>
+    <title> Home </title>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+	<link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#fuuter").load("footer.html");
+        });
+    </script>
+</head>
 
-            <table>
-                <tr>
+<body>
+    <div id="header">
+    </div>
+
+    <div class="table100">
+        <table>
+            <thead>
+                <tr class="table100-head">
                     <th>Service</th>
                     <th>What you get</th>
                     <th>What you pay</th>
                     <th>Revisions</th>
                     <th>Availability</th>
                 </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Recording Session</td>
+                <td>All recorded audio tracks as a digital download</td>
+                <td>5€ per person + 10€ per hour</td>
+                <td>No Revisions</td>
+                <td>Only available for artists near Würzburg</td>
+            </tr>
 
-                <tr>
-                    <td>Recording Session</td>
-                    <td>All recorded audio tracks as a digital download</td>
-                    <td>5€ per person + 10€ per hour</td>
-                    <td>No Revisions</td>
-                    <td>Only available for artists near Würzburg</td>
-                </tr>
+            <tr>
+                <td>Sound Edit</td>
+                <td>One track edited per you specifications as a digital download</td>
+                <td>5€ per Track (Mono or Stereo)</td>
+                <td>2 Revisions</td>
+                <td>Available online</td>
+            </tr>
 
-                <tr>
-                    <td>Sound Edit</td>
-                    <td>One track edited per you specifications as a digital download</td>
-                    <td>5€ per Track (Mono or Stereo)</td>
-                    <td>2 Revisions</td>
-                    <td>Available online</td>
-                </tr>
+            <tr>
+                <td>Jam Session</td>
+                <td>Meet-Up at my Studio for a Jam Session. All channels will be recorded and will be available
+                    as a digital download
+                </td>
+                <td>5€ per person + 10€ per hour</td>
+                <td>No Revisions</td>
+                <td>Only available for artists near Würzburg</td>
+            </tr>
 
-                <tr>
-                    <td>Jam Session</td>
-                    <td>Meet-Up at my Studio for a Jam Session. All channels will be recorded and will be available 
-                        as a digital download
-                    </td>
-                    <td>5€ per person + 10€ per hour</td>
-                    <td>No Revisions</td>
-                    <td>Only available for artists near Würzburg</td>
-                </tr>
+            <tr>
+                <td>Jam Session + Mix</td>
+                <td>See "Jam Session" - Additionally you get a Stereo Mix including all the tracks from the Session</td>
+                <td>5€ + 5€ per Person + 10€ per hour</td>
+                <td>No Revisions</td>
+                <td>Only available for artists near Würzburg</td>
+            </tr>
 
-                <tr>
-                    <td>Jam Session + Mix</td>
-                    <td>See "Jam Session" - Additionally you get a Stereo Mix including all the tracks from the Session</td>
-                    <td>5€ + 5€ per Person + 10€ per hour</td>
-                    <td>No Revisions</td>
-                    <td>Only available for artists near Würzburg</td>
-                </tr>
+            <tr>
+                <td>Jam Session + Edit + Mix</td>
+                <td>See "Jam Session" - Additionally, every track gets an edit per your specifications and you will
+                    also recieve a Stereo Mix including all the edited tracks from the Session
+                </td>
+                <td>15€ + 5€ per Person + 10€ per hour</td>
+                <td>No Revisions</td>
+                <td>Only available for artists near Würzburg</td>
+            </tr>
 
-                <tr>
-                    <td>Jam Session + Edit + Mix</td>
-                    <td>See "Jam Session" - Additionally, every track gets an edit per your specifications and you will
-                        also recieve a Stereo Mix including all the edited tracks from the Session
-                    </td>
-                    <td>15€ + 5€ per Person + 10€ per hour</td>
-                    <td>No Revisions</td>
-                    <td>Only available for artists near Würzburg</td>
-                </tr>
+            <tr>
+                <td>Mixing</td>
+                <td>A Stereo Mix of your provided stems</td>
+                <td>20€ per song</td>
+                <td>2 Revisions</td>
+                <td>Available online</td>
+            </tr>
 
-                <tr>
-                    <td>Mixing</td>
-                    <td>A Stereo Mix of your provided stems</td>
-                    <td>20€ per song</td>
-                    <td>2 Revisions</td>
-                    <td>Available online</td>
-                </tr>
+            <tr>
+                <td>Mastering</td>
+                <td>A mastered Stereo File of your provided Stereo Mix</td>
+                <td>15€ per song</td>
+                <td>2 Revisions</td>
+                <td>Available online</td>
+            </tr>
 
-                <tr>
-                    <td>Mastering</td>
-                    <td>A mastered Stereo File of your provided Stereo Mix</td>
-                    <td>15€ per song</td>
-                    <td>2 Revisions</td>
-                    <td>Available online</td>
-                </tr>
+            <tr>
+                <td>Mixing + Mastering</td>
+                <td>Package Deal - See "Mixing" and "Mastering" respectively</td>
+                <td>30€ per song</td>
+                <td>2 Revisions</td>
+                <td>Available online</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <div id="fuuter">
+    </div>
+</body>
 
-                <tr>
-                    <td>Mixing + Mastering</td>
-                    <td>Package Deal - See "Mixing" and "Mastering" respectively</td>
-                    <td>30€ per song</td>
-                    <td>2 Revisions</td>
-                    <td>Available online</td>
-                </tr> 
-            </table>
-
-            <div id ="fuuter">        
-            </div>
-    </body>
 </html>
