@@ -1,7 +1,8 @@
 <html>
     <head>
-        <title> Home </title>
-        <link rel="stylesheet" type="text/css" href="../CSS/style.css"/>       
+        <title> Discography - Collaborations </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css"/>  
+        <link rel="stylesheet" type="text/css" href="../CSS/discographyStyle.css">     
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script
             src="https://code.jquery.com/jquery-3.3.1.js"
@@ -21,12 +22,29 @@
         </div>
         <div class="DiscoTopper">
             <h1>Collaborations - it's always more fun with friends</h1>
+            <h5>Click on any album to get aditional info</h5>
         </div>
-        <br>
 
-        
+        <SquareGrid>
+            <div id="SoulHikersCell" class="item" data-isblured="false">
+                <div class="doblur" id="SoulHikersImage"></div>
+                <div class="text">
+                    Title: Soul Hikers <br>
+                    Artist: Fyreman & Robin Naeder <br>
+                    Genre: House <br>
+                    Type: Single <br>
+                    Release Date: 03.07.2016 <br>
+                    Availible on: <a href="https://open.spotify.com/album/5b64bz5Yn6iwGX1eh3zXDA?si=j4TpTrmkRE-pGW2wwy3_FA" target="_blank" rel="noopener noreferrer">Spotify</a>,
+                    <a href="https://youtu.be/uzUI9esRi9A" target="_blank" rel="noopener noreferrer">YouTube</a> <br>
+                    <br>
+                    A Progressive House track I worked on together with Robin Naeder. It creates an amazing transition
+                    from a kind of melodic House drop to a bass-heavy drop with a sliding lead synth I haven't been 
+                    able to recreate since. 
+                </div>
+            </div>
+        </SquareGrid>
 
-        <div id ="fuuter">        
-        </div>
+        <div id ="fuuter"></div>
+        <script src="../JS/DiscographyScript.js"></script>
     </body>
 </html>
